@@ -3,7 +3,7 @@ pipeline {
 	  stages {
         stage('Code Checkout') { 
             steps { 
-                git 'https://github.com/vasavit07/Industry_Grade_Project.git'
+                git 'https://github.com/vasavit07/IGP.git'
             }
         }
         stage('Code Compile'){
